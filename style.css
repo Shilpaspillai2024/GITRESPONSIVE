@@ -1,0 +1,517 @@
+
+.navbar-container{
+    width: 100vw;
+    background-color: black;
+}
+.navbar-top-left:hover{
+    cursor: pointer;
+
+}
+.navbar-top-left{
+    color: rgb(221, 219, 219);
+
+}
+.sidebar{
+    display: none;
+    position: fixed;
+    background-color:rgb(17, 17, 17) ;
+    top: 0;
+    height:100vh;
+    width: 350px;
+    padding-top: 30px;
+   
+    z-index: 1;
+    
+}
+.sidebar ul a{
+    text-decoration: none;
+    color:rgb(124, 124, 124);
+    display: block;
+    line-height: 40px;
+    
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar a:hover{
+  color:rgb(173, 170, 170) ;
+}
+.sidebar .closebtn{
+    width: 30px;
+    margin-left: 250px;
+    height: 30px;
+    background-color:rgb(34, 33, 33) ;
+    border: none;
+    color: rgb(179, 174, 174);
+   
+}
+.sidebar button:hover{
+    background-color:rgb(63, 60, 60) ;
+}
+.Rightsidebar{
+    display:none;
+    position: fixed;
+    background-color:rgb(17, 17, 17) ;
+    top: 0;
+    right:0;
+    height:100vh;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 10px;
+    z-index: 1;
+    flex-direction: column;
+    
+}
+
+
+.Rightsidebar ul a{
+    text-decoration: none;
+    color:rgb(124, 124, 124);
+    display: block;
+    line-height: 20px;
+    margin-top: 30px;
+
+    
+}
+.Rightsidebar ul{
+    list-style: none;
+    margin-left: 0;
+}
+.rightsidebar-img{
+    width:100px
+}
+.rightsidebar-img img{
+    width:30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.rightsidebar-img span{
+    margin-left: 10px;
+    color:rgb(124, 124, 124) ;
+}
+.rightsidebar-user .name{
+    color:rgb(90, 85, 85) ;
+    font-size: 15px;
+}
+.Rightsidebar a:hover{
+  color:rgb(173, 170, 170) ;
+}
+.Rightsidebar .closebtn{
+    width: 30px;
+    margin-left: 300px;
+    height: 30px;
+    background-color:rgb(34, 33, 33) ;
+    border: none;
+    color: rgb(179, 174, 174);
+   
+}
+.Rightsidebar button:hover{
+    background-color:rgb(63, 60, 60) ;
+}
+.navbar-search{
+    border-radius: 10px;
+    border: 1px solid rgb(44, 43, 43); 
+    overflow: hidden;
+}
+.navbar-search input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.navbar-search button{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: gray;
+}
+.navbar-search button:hover{
+    background-color:rgb(70, 68, 68) 
+}
+.navbar-vertical{
+    border-right: 1px solid  rgb(44, 43, 43);
+    padding: 10px;
+
+}
+.navbar-line{
+    margin-right:10px;
+    overflow: hidden;
+}
+.navbar-plus{
+    border: 1px solid  rgb(44, 43, 43);
+    border-radius: 10px;
+    color:grey;
+}
+.navbar-plus:hover{
+    background-color:rgb(70, 68, 68) 
+}
+.navbar-icons:hover{
+    background-color:rgb(70, 68, 68) ;
+   
+
+}
+.navbar-icons{
+    border: 1px solid  rgb(44, 43, 43);
+    border-radius: 10px;
+    color:grey;
+}
+.navbar-icons-drive{
+    border: 1px solid  rgb(44, 43, 43);
+    border-radius: 10px;
+    color:grey;
+}
+.navbar-user{
+    font-size: 20px;
+}
+.navbar-bottom-portion{
+    color: rgb(233, 227, 227);
+}
+/* header style ends */
+/*body style starts */
+.container-bg{
+    background-color: rgb(34, 33, 33);
+   
+}
+.container-left{
+    margin-left: 10px;
+}
+.container-left-user{
+   
+    margin-left: 50px;
+    color: white;
+    
+}
+.container-left-user img:hover{
+    cursor: pointer;
+}
+.container-left-user img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.user-edit input{
+    background: transparent;
+    border: 1px solid rgb(94, 93, 93);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    
+}
+.user-follow{
+    color: rgb(182, 181, 181);
+}
+.user-information{
+    color: rgb(182, 181, 181);
+    
+}
+.user-information a{
+    color: rgb(182, 181, 181);
+    text-decoration: none;
+}
+.user-information a:hover{
+    color: rgb(23, 105, 199);
+    text-decoration: underline;
+}
+.container-first{
+    border: 1px solid rgb(44, 43, 43);
+  
+  
+
+}
+.user-readme a{
+    color: white;
+    text-decoration: none;
+}
+.user-readme a:hover{
+    color: rgb(23, 105, 199);
+    
+}
+.container-body-line{
+    border-bottom: 1px solid rgb(44, 43, 43) ;
+}
+.user-link a{
+    color: white;
+}
+.user-link a :hover{
+   
+    color: rgb(23, 105, 199);
+}
+
+.user-about-details span{
+    font-size:30px;
+}
+.user-about-details hr{
+    color: rgb(94, 93, 93) ;
+}
+.user-socials-icon a:hover{
+    cursor: pointer;
+
+}
+.user-horizontal hr{
+    color: rgb(94, 93, 93) ;
+}
+/*.user-tech-skills img{
+    width:50px
+  }
+  */
+  .user-tech-language
+  
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .user-tech-icons{
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+
+
+  }
+  .user-tech-icons2{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:orangered;
+    color: black;
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+
+  }
+  .user-tech-icons3{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:rgb(97, 176, 207);
+    color: black;
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+
+  }
+  .user-tech-icons4{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:rgb(150, 48, 136);
+    color: black;
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+
+  }
+  .user-tech-language2{
+    margin-top: 10px;
+    display: flex;
+    flex:wrap;
+  }
+  
+  .user-tech-icons5{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:black;
+    color: skyblue;
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+
+  }
+  .user-tech-icons6{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:rgb(185, 145, 14);
+    color: black;
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+  }
+  .user-tech-icons7{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:black;
+    color: rgb(247, 101, 16);
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+  }
+
+  .user-tech-icons8{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:white;
+    color: rgb(83, 148, 8);
+    /* width: 150px; */
+     margin-right: 10px;
+     flex:1 0 100px;
+  }
+
+
+ .github-stats
+ {
+    border: 1px solid rgb(204, 199, 199) ;
+    width: 400px;
+    height: 200px;
+ }
+ .github-stats-user{
+    padding: 20px;
+ }
+.github-stats-user h5{
+    color: rgb(202, 19, 104);
+    
+}
+.github-stats-user span{
+    color: rgb(141, 226, 198);
+    display:flex;
+    flex-direction: column;
+}
+.github-stats-circle{
+    border: 8px solid rgb(207, 123, 163);
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    color:rgb(141, 226, 198) ;
+   border-top-color:rgb(194, 59, 149)
+}
+.github-stats-circle span{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+    
+}
+.github-most{
+    border: 1px solid rgb(204, 199, 199);
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+}
+.github-used-lan h5{
+    color:rgb(202, 19, 104);
+    text-align: center;
+    padding-top: 20px;
+}
+.git-lan{
+    border:2px soild rgb(162, 0, 255);
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+.progress{
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.popular-repo{
+    margin-left:530px ;
+}
+.repo{
+    border: 1px solid rgb(53, 52, 52);
+    width:300px;
+    height: 100px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.repo-link{
+    margin-top:20px ;
+}
+.repo-link a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.repo-link a:hover{
+    text-decoration: underline;
+}
+.repo-public{
+    border: 1px solid rgb(53, 51, 51);
+    border-radius: 30px;
+    width:70px;
+    height:20px;
+    font-size: 15px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    color: rgb(209, 203, 203);
+    
+}
+.repo-desc{
+    font-size: 12px;
+    padding: 10px;
+    color: rgb(180, 172, 172);
+    
+}
+.repo-desc2{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.dot{
+    padding: 10px;
+    height: 2px;
+    width: 2px;
+    background-color:rgb(161, 57, 20);
+    border-radius: 50%;
+   
+}
+.repo-desc2 span{
+  margin-left: 20px;
+  color: rgb(209, 203, 203);
+  font-size: 12px;
+}
+.above-footer{
+    font-size: 12px;
+    color:rgb(209, 203, 203) ;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.git-footer{
+    margin-left: 250px;
+    padding-bottom: 100px;
+    font-size: 13px;
+    
+  }
+  .git-footer-anchor a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .git-footer-anchor a:hover{
+    text-decoration: underline;
+    color: rgb(23, 105, 199) ;
+  }
+/*body styles end */
+/* page responsiveness */
+@media only screen and (max-width :1012px){
+ .navbar-search input, button{
+    display:none;
+ }
+  .git-footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+   }
+
+}
+
+@media only screen and (max-width :768px){
+    .navbar-search input, button{
+       display:none;
+    }
+     .navbar-plus{
+         display: none;
+     }
+     .navbar-icons{
+        display: none;
+     }
+     .navbar-line{
+        display: none;
+     }
+   
+   }
+

@@ -175,9 +175,15 @@
 /* header style ends */
 /*body style starts */
 .container-bg{
+    
     background-color: rgb(34, 33, 33);
+    width: 100vw;
+   
     
    
+}
+.container-git{
+    width: 100vw;
 }
 .container-left{
     margin-left: 10px;
@@ -221,6 +227,9 @@
 }
 .container-first{
     border: 1px solid rgb(44, 43, 43);
+    width: 100vw;
+    margin-right: 50px;
+    
   
   
 
@@ -270,44 +279,42 @@
 
   
   .user-tech-icons{
-    font-size: 20px;
+    font-size: 15px;
     background-color: yellow;
-    border-radius: 20px;
     color: black;
-    /* width: 150px; */
+    width: 120px;
+    height: 20px;
      margin-right: 10px;
-     flex:1 0 100px;
-
+     
 
   }
   .user-tech-icons2{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:orangered;
     color: black;
-    /* width: 150px; */
+    width: 100px;
+    height: 20px;
      margin-right: 10px;
-     flex:1 0 100px;
+     
 
   }
   .user-tech-icons3{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:rgb(97, 176, 207);
     color: black;
-    /* width: 150px; */
+     width:100px;
+     height: 20px;
      margin-right: 10px;
-     flex:1 0 100px;
-
+     
   }
   .user-tech-icons4{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:rgb(150, 48, 136);
     color: black;
-    /* width: 150px; */
-     margin-right: 10px;
-     flex:1 0 100px;
+    height: 20px;
+   
+    margin-right: 10px;
+   
 
   }
   .user-tech-language2{
@@ -317,42 +324,42 @@
   }
   
   .user-tech-icons5{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:black;
     color: skyblue;
-    /* width: 150px; */
-     margin-right: 10px;
-     flex:1 0 100px;
-
+   width: 100px;
+   height: 20px;
+    
+    
   }
   .user-tech-icons6{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:rgb(185, 145, 14);
     color: black;
-    /* width: 150px; */
+   width: 100px;
+   height: 20px;
      margin-right: 10px;
-     flex:1 0 100px;
+    
   }
   .user-tech-icons7{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:black;
     color: rgb(247, 101, 16);
-    /* width: 150px; */
+    width: 100px;
+    height: 20px;
      margin-right: 10px;
-     flex:1 0 100px;
+    
   }
 
   .user-tech-icons8{
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 15px;
     background-color:white;
     color: rgb(83, 148, 8);
-    /* width: 150px; */
+    width: 100px;
+    height: 20px;
      margin-right: 10px;
-     flex:1 0 100px;
+     
+    
   }
 
 
@@ -503,7 +510,20 @@
 @media only screen and (max-width :1012px){
  .navbar-search input, button{
     display:none;
- }
+            }
+
+
+            .container-first{
+                
+                width: 100vw;
+                margin-right: 50px;
+                
+              
+              
+            
+            }
+ 
+
   .git-footer{
     display: flex;
     flex-direction: column-reverse;

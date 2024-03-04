@@ -659,7 +659,7 @@
 
      .container-left{
         width: 100vw;
-        padding: 0;
+        height:65%;
         
         }
         
@@ -741,7 +741,7 @@
                 display: none;
 
             }
-            
+           
 
         }
             @media only screen and (max-width :519px){

@@ -9,6 +9,7 @@
 .navbar-container{
     width: 100vw;
     background-color: black;
+   
 }
 .navbar-top-left:hover{
     cursor: pointer;
@@ -18,6 +19,10 @@
     color: rgb(221, 219, 219);
 
 }
+.navbar-top-right{
+    padding-right: 20px;
+}
+
 .sidebar{
     display: none;
     position: fixed;
@@ -169,9 +174,10 @@
 .navbar-user{
     font-size: 20px;
 }
-.navbar-bottom-portion{
-    color: rgb(233, 227, 227);
+.navbar-bottom{
+    color: rgb(212, 209, 209);
 }
+
 /* header style ends */
 /*body style starts */
 .container-bg{
@@ -249,7 +255,7 @@
 .container-first{
     border: 1px solid rgb(44, 43, 43);
     width: 100vw;
-    margin-right: 80px;
+    margin-right: 100px;
     margin-top:30px;
     padding-right: 20px;
     margin-left: 20px;
@@ -313,6 +319,7 @@
     width: 120px;
     height: 20px;
      margin-right: 10px;
+     margin-top: 10px;
      
 
   }
@@ -323,6 +330,8 @@
     width: 100px;
     height: 20px;
      margin-right: 10px;
+     margin-top: 10px;
+     
      
 
   }
@@ -333,6 +342,8 @@
      width:100px;
      height: 20px;
      margin-right: 10px;
+     margin-top: 10px;
+     
      
   }
   .user-tech-icons4{
@@ -340,7 +351,8 @@
     background-color:rgb(150, 48, 136);
     color: black;
     height: 20px;
-   
+    margin-top: 10px;
+     
     margin-right: 10px;
    
 
@@ -357,6 +369,9 @@
     color: skyblue;
    width: 100px;
    height: 20px;
+   margin-top: 10px;
+     
+     
     
     
   }
@@ -394,8 +409,8 @@
  .github-stats
  {
     border: 1px solid rgb(204, 199, 199) ;
-    width: 400px;
-    height: 200px;
+    width: 80%;
+    height: 80%;
  }
  .github-stats-user{
     padding: 20px;
@@ -412,8 +427,8 @@
 .github-stats-circle{
     border: 8px solid rgb(207, 123, 163);
     border-radius:50%;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-top: 40px;
     color:rgb(141, 226, 198) ;
    border-top-color:rgb(194, 59, 149)
@@ -421,7 +436,8 @@
 .github-stats-circle span{
     font-weight: bold;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 20px;
+    
     
 }
 .github-most{
@@ -562,7 +578,7 @@
             }
 
             .container-first{
-                width:550px ;
+                width:100vw ;
                 margin-right: 40px;
                 margin-left: 20px;
                 padding-right: 30px;
@@ -626,7 +642,11 @@
         display: none;
      }
      .navbar-container{
-        padding-right: 20px;
+        width: 100%;
+        
+     }
+     .navbar-bottom{
+        width: 100%;
      }
 
      .container-git{
@@ -634,6 +654,7 @@
         flex-direction: column;
         
     }
+    
 
 
      .container-left{
@@ -664,8 +685,9 @@
     background-color: rgb(54, 53, 53);
     border: 1px solid rgb(94, 93, 93);
     border-radius: 10px;
-    width: 650px;
+    width: 90%;
     height: 30px;
+    margin-right: 10px;
     
     
 }
@@ -680,10 +702,10 @@
     
     
 .container-first{
-    width: 700px;
+    width:90%;
     margin-top:10px;
-    margin-left: 20px;
-    margin-right: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
     
 }
 
@@ -712,3 +734,32 @@
           }
           
         }
+
+
+        @media only screen and (max-width :596px){
+            .navbar-bottom-portion5{
+                display: none;
+
+            }
+
+        }
+            @media only screen and (max-width :519px){
+                .navbar-bottom-portion4{
+                    display: none;
+    
+                }
+
+        }
+        @media only screen and (max-width :414px){
+            .navbar-bottom-portion4{
+                display: none;
+
+            }
+
+    }
+    
+
+    
+
+
+        

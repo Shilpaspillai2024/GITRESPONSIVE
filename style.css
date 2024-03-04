@@ -256,7 +256,7 @@
     border: 1px solid rgb(44, 43, 43);
     width: 100vw;
     margin-right: 100px;
-    margin-top:30px;
+    margin-top:20px;
     padding-right: 20px;
     margin-left: 20px;
   
@@ -582,7 +582,7 @@
                 margin-right: 40px;
                 margin-left: 20px;
                 padding-right: 30px;
-                margin-top:30px;
+               
               
             }
 
@@ -741,6 +741,7 @@
                 display: none;
 
             }
+            
 
         }
             @media only screen and (max-width :519px){
@@ -757,6 +758,16 @@
             }
 
     }
+    @media only screen and (max-width :390px){
+        .container-first{
+           
+            margin-top:10px;
+           
+        }
+        
+
+}
+
     
 
     
